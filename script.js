@@ -1,4 +1,7 @@
 const apiUrl = "https://api.disneyapi.dev/character"
+const charName = document.getElementById("charecter-name")
+const charFilms = document.getElementById("charecter-films")
+const charShows = document.getElementById("charecter-shows")
 
 function processResponse(response){
     console.log("processing response with status:", response.status)
@@ -21,7 +24,7 @@ function displayData(data){
         //pick a random charecter from the list
         const randomIndex = Math.floor(Math.random()*characters.length);
         const character = characters[randomIndex]
-        console.log(character.name)
+        charName.textContent = character.name
     }
     //log the selected charecters the name and films if avalible to the console
     
