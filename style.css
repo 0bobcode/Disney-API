@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+charecter-img{
+    border-radius: 5px;
+}
+
+#charecter-card{
+    border-radius: 10px;
+        background: #ffffff;
+        box-shadow: 26px 26px 51px #898989,
+            -26px -26px 51px #ffffff;
+}
