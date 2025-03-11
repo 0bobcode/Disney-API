@@ -1,10 +1,59 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: "Play", sans-serif;
+    
 }
 
-charecter-img{
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+#charecter-img{
     border-radius: 5px;
+    height: 200px;
+    width:150px;
+    object-fit: contain;
+    padding: 10px;
+}
+
+#charecter-films{
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 20px;
+}
+
+
+
+img{
+    border-radius: 5px;
+}
+
+#charecter-name{
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+#charecter-url{
+    text-decoration: none;
+    color: black;
+    background-color: #e6e6e6;
+    padding:10px;
+    border-radius: 10px;
+    border: 1px black solid;
+    margin-bottom: 30px;
+}
+
+#random-char{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: skyblue;
 }
 
 #charecter-card{
@@ -12,4 +61,9 @@ charecter-img{
         background: #ffffff;
         box-shadow: 26px 26px 51px #898989,
             -26px -26px 51px #ffffff;
+    padding: 20px;
+    border: 1px #ccc solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
